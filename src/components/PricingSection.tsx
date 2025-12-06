@@ -39,19 +39,19 @@ const PricingSection = () => {
               {/* Price */}
               <div className="text-center mb-8">
                 <div className="flex items-center justify-center gap-4 mb-4">
-                  <span className="text-2xl text-muted-foreground line-through">R$ 1.000,00</span>
-                  <span className="bg-secondary/20 text-secondary px-3 py-1 rounded-full text-sm font-bold">-20%</span>
+                  <span className="text-2xl text-muted-foreground line-through">R$ 97,00</span>
+                  <span className="bg-secondary/20 text-secondary px-3 py-1 rounded-full text-sm font-bold">-80%</span>
                 </div>
                 <div className="mb-2">
-                  <span className="text-muted-foreground">Por apenas 12x de</span>
+                  <span className="text-muted-foreground">Por apenas</span>
                 </div>
                 <div className="flex items-start justify-center gap-1">
                   <span className="text-2xl font-bold text-foreground">R$</span>
-                  <span className="text-7xl md:text-8xl font-extrabold gradient-text">82</span>
-                  <span className="text-2xl font-bold text-foreground">,39</span>
+                  <span className="text-7xl md:text-8xl font-extrabold gradient-text">19</span>
+                  <span className="text-2xl font-bold text-foreground">,90</span>
                 </div>
                 <p className="text-muted-foreground mt-2">
-                  Ou à vista por: <strong className="text-foreground">R$ 799,90</strong>
+                  Pagamento único, acesso vitalício
                 </p>
               </div>
 
