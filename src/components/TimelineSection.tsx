@@ -94,8 +94,10 @@ const TimelineSection = () => {
 
           {/* CTA */}
           <div className="text-center">
-            <Button variant="hero" size="xl">
-              QUERO MUDAR DE VIDA AGORA
+            <Button variant="hero" size="xl" asChild>
+              <a href="https://ambienteseguro.org.ua/c/3ddb9815d3" target="_blank" rel="noopener noreferrer">
+                QUERO MUDAR DE VIDA AGORA
+              </a>
             </Button>
           </div>
         </div>
