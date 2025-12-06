@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Play, CheckCircle, Zap, Star } from "lucide-react";
+import { CheckCircle, Zap, Star } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
 
 const HeroSection = () => {
@@ -41,14 +41,10 @@ const HeroSection = () => {
             Ganhe massa muscular, elimine gordura, se livre das dores e aumente sua performance com nosso método exclusivo.
           </p>
 
-          {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16 animate-fade-up delay-400">
-            <Button variant="hero" size="xl" className="w-full sm:w-auto">
+          {/* CTA Button */}
+          <div className="flex justify-center items-center mb-16 animate-fade-up delay-400">
+            <Button variant="hero" size="xl">
               QUERO COMEÇAR AGORA
-            </Button>
-            <Button variant="glass" size="lg" className="w-full sm:w-auto group">
-              <Play className="w-5 h-5 group-hover:text-primary transition-colors" />
-              Ver Apresentação
             </Button>
           </div>
 
