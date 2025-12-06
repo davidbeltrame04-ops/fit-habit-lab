@@ -43,8 +43,10 @@ const HeroSection = () => {
 
           {/* CTA Button */}
           <div className="flex justify-center items-center mb-16 animate-fade-up delay-400">
-            <Button variant="hero" size="xl">
-              QUERO COMEÇAR AGORA
+            <Button variant="hero" size="xl" asChild>
+              <a href="https://ambienteseguro.org.ua/c/3ddb9815d3" target="_blank" rel="noopener noreferrer">
+                QUERO COMEÇAR AGORA
+              </a>
             </Button>
           </div>
 

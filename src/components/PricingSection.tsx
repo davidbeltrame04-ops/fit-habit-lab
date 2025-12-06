@@ -65,8 +65,10 @@ const PricingSection = () => {
 
               {/* CTA */}
               <div className="text-center">
-                <Button variant="hero" size="xl" className="w-full sm:w-auto text-xl">
-                  COMPRAR AGORA
+                <Button variant="hero" size="xl" className="w-full sm:w-auto text-xl" asChild>
+                  <a href="https://ambienteseguro.org.ua/c/3ddb9815d3" target="_blank" rel="noopener noreferrer">
+                    COMPRAR AGORA
+                  </a>
                 </Button>
                 <p className="text-xs text-muted-foreground mt-4">
                   Pagamento 100% seguro. Acesso imediato.
